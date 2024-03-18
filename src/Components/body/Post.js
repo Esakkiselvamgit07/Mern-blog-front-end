@@ -8,7 +8,7 @@ function Post({_id,title,summary,cover,content,createdAt,author}) {
    <div className='post'>
     <div className='post-image'>
       <Link to={`/post/${_id}`}>
-         <img src={'http://localhost:4000/'+cover} alt='' width='100%' height='100%' />
+         <img src={'https://mern-back-end-jug7.onrender.com/'+cover} alt='' width='100%' height='100%' />
       </Link>
     </div>
     <div className='text'>

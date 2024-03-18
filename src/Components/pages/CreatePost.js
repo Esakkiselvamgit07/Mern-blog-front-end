@@ -19,7 +19,7 @@ async function createNewPost(ev){
   ev.preventDefault();
   console.log(files)
 
-  const response = await fetch('http://localhost:4000/post',{
+  const response = await fetch('https://mern-back-end-jug7.onrender.com/post',{
     method:'POST',
     body:data,
     credentials:'include',
