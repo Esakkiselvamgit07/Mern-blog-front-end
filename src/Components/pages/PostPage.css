@@ -1,0 +1,69 @@
+div .post-page{
+    width: 960px;
+    margin: auto;
+    border: #aaa solid 1px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:600px) {
+    div .post-page{
+      width: 100%;
+    }
+    
+  }
+div.post-page div.image{
+    max-height: 300px;
+    display: flex;
+    overflow: hidden;
+    /* border-radius: 5px; */
+}
+div.post-page div.image img{
+ object-fit: cover;
+ object-position: center center;
+ width: 100%;
+
+}
+
+div.post-page a{
+    color: #333;
+    text-decoration: underline;
+}
+div.post-page h1{
+  /* align-items: center; */
+  text-align: center;
+  margin-bottom:10px;
+}
+div.post-page time{
+    text-align: center;
+    display: block;
+    font-size: .8rem;
+    color: #aaa;
+}
+div.post-page div.author{
+    text-align: center;
+    margin-bottom: 10px; 
+    font-size: .8rem;
+    /* color: #aaa; */
+    font-weight: bold;
+}
+div.post-page div.content p{
+    line-height: 1.5rem;
+}
+div .edit-row{
+  text-align: center;
+  margin-bottom: 20px;
+ }
+div.post-page a.edit-btn{
+    background-color: #333;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+a svg{
+    height: 24px;
+}

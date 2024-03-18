@@ -1,0 +1,13 @@
+.searchbox{
+    max-width: 400px;
+    margin:  auto;
+}
+.searchbar{
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+}

@@ -1,0 +1,42 @@
+.homepage{
+ margin: 0 auto;
+    /* background-color: aqua; */
+ background-image :url('/public/travel.jpg');
+ /* object-fit: cover; */
+ /* object-position: center center; */
+ width: auto;
+ background-size: cover;
+ background-position: center;
+ width: 100%;
+ /* margin-top: 20px; */
+ /* background:; */
+ height: 550px;
+}
+.top-box{
+    position: absolute;
+    background-color: rgba(39, 204, 226, 0.753);
+    max-width: 200px;
+    height: 200px;
+    margin-left:100px ;
+    margin-top: 5px;
+
+}
+.top-box1{
+    /* margin-left: 0; */
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.top-box img{
+    border-radius: 50%;
+    height: 100px ;
+    width: 100px;
+    object-fit: cover;
+    object-position: center center;
+    /* max-width: 90%; */
+}
+
+.top-box text{
+    height:  40%;
+
+}
